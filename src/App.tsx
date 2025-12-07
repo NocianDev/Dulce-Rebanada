@@ -31,10 +31,10 @@ const SHOP_NAME = "Dulce rebanada";
 const TAGLINE = "Postrería artesanal - sabor que enamora";
 
 const MENU_ITEMS: MenuItem[] = [
-  { id: 1, name: "Tarta de fresa", price: "$65", desc: "Base de mantequilla, crema y fresas naturales", img: "./public/images/Image 1.jpg"},
-  { id: 2, name: "Brownie doble", price: "$45", desc: "Chocolate intenso con trozos de nuez", img: "./public/images/Image 2.jpg" },
-  { id: 3, name: "Cheesecake de limón", price: "$75", desc: "Cremoso con un toque cítrico", img: "./public/images/Image 3.jpg" },
-  { id: 4, name: "Éclair de chocolate", price: "$40", desc: "Relleno de crema y cobertura de chocolate", img: "./public/images/Image 4.webp" },
+  { id: 1, name: "Tarta de fresa", price: "$65", desc: "Base de mantequilla, crema y fresas naturales", img: "/images/Image 1.jpg"},
+  { id: 2, name: "Brownie doble", price: "$45", desc: "Chocolate intenso con trozos de nuez", img: "/images/Image 2.jpg" },
+  { id: 3, name: "Cheesecake de limón", price: "$75", desc: "Cremoso con un toque cítrico", img: "/images/Image 3.jpg" },
+  { id: 4, name: "Éclair de chocolate", price: "$40", desc: "Relleno de crema y cobertura de chocolate", img: "/images/Image 4.webp" },
 ];
 
 // Dirección para el iframe de Google Maps — cámbiala por la real
@@ -86,7 +86,7 @@ export default function App(): JSX.Element {
         <div className="relative">
           <div className="rounded-3xl overflow-hidden shadow-2xl transform -translate-y-4">
             {/* Imagen hero - reemplaza por una foto atractiva */}
-            <img src="./public/images/Image 6.webp" alt="Pastel artesanal" className="w-full h-80 object-cover" />
+            <img src="/images/Image 6.webp" alt="Pastel artesanal" className="w-full h-80 object-cover" />
           </div>
 
           <div className="">
